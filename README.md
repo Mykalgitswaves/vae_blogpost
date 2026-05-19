@@ -4,7 +4,7 @@ This is a random explanation of how vae's work - what i think is an interesting 
 A while back i tested a bunch of different approaches to mapping scent sentences into 3d using umap. I looked into VAE's to see which ones could help me detangle sentence transformer embeddings that represented short descriptions of perfumes. The goal was to map a perfume's scent into a navigatable 3d space.
 
 **My hypothesis** 
-Do Vae's provide some kind of added value on top of plain old scemantic similarity for better understanding perfume scent descriptions:
+Do Vae's provide some kind of added value on top of raw embeddings for better understanding perfume scent descriptions:
 
 1) Establish a baseline for how well sentence transformer embedding's + cosine similarity can find similar perfumes.
   
@@ -18,10 +18,9 @@ Do Vae's provide some kind of added value on top of plain old scemantic similari
 
 • We will do PCA on raw embeddings as well to understand baseline.
 
-**Developing our baseline**:
+**Developing our test set for ranking scores**:
 
-Fragrantica similarity is what we will use as the defacto source of truth for figuring out whether our neighborhoods of scents actually smell similar.
-Will make a test set of perfumes from that for generating our ndcg@10 metric.
+Fragrantica similarity is what we will use as the defacto source of truth for figuring out whether our perfumes that are in the same neighborhood actually smell similar. We will make a test set of perfumes from that for generating our ndcg@10 metric.
 
 **The questions we will hopefully answer are:**
 
