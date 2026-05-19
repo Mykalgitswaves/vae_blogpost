@@ -25,3 +25,8 @@ Do Vae's provide some kind of added value on top of plain old scemantic similari
 5) Does lossy reconstruction + disentanglement of latent features with a TC-VAE improve ndcg@10 scores.
 
 6) Does latent disentaglement correspond with interpetable scent axis (x,y,z position) on umap. 
+
+**Some blatant holes in this project**:
+
+Semantic similarity is not a 1 - 1 translation to olifactory perception. Meaning, words can be similar but scents can be really different when combined. 
+If the goal is to find things that smell the same semantic similarity is likely not the silver bullet we are looking for.
