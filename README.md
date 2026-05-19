@@ -1,5 +1,5 @@
 **Background:**
-This is a random explanation of how vae's work - what i think is an interesting use case for them in the perfume domain and visualizations of perfume embeddings in 3d with umap.
+This is a random explanation of how vae's work - what i think is an interesting use case for them in the perfume domain and visualizations of perfume embeddings in 3d.
 
 A while back i tested a bunch of different approaches to mapping scent sentences into 3d using umap. I looked into VAE's to see which ones could help me detangle sentence transformer embeddings that represented short descriptions of perfumes. The goal was to map a perfume's scent into a navigatable 3d space.
 
