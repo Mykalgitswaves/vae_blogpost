@@ -30,3 +30,5 @@ Do Vae's provide some kind of added value on top of plain old scemantic similari
 
 Semantic similarity is not a 1 - 1 translation to olifactory perception. Meaning, words can be similar but scents can be really different when combined. 
 If the goal is to find things that smell the same semantic similarity is likely not the silver bullet we are looking for.
+
+UMAP is not a reproducable metric for determining neighborhoods - because it differs on every run. We should find a better way to evaluate the neighborhoods of our embeddings using unsupervised learning - maybe spectral clustering or graphs?
