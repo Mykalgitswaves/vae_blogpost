@@ -36,3 +36,10 @@ Semantic similarity is not a 1 - 1 translation to olifactory perception. Meaning
 If the goal is to find things that smell the same semantic similarity is likely not the silver bullet we are looking for.
 
 UMAP is not a reproducable metric for determining neighborhoods - because it differs on every run. We should find a better way to evaluate the neighborhoods of our embeddings using unsupervised learning - maybe spectral clustering or graphs?
+
+---
+
+#### other things i found while looking online:
+
+Theres a whole dataset of molecules and their scent behavior here: https://github.com/pyrfume/pyrfume-data
+Maybe there is a way to use these to double check scent embeddings, the problem is that our data's not weighted. but maybe these could help us make the correct weights for each of our words. I.e. Basenotes of bergamont get a .25 penalty when combined with top notes of lilac (floral) because they behave a certain way.
