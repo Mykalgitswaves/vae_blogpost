@@ -24,7 +24,7 @@ Do Vae's provide some kind of added value on top of plain old scemantic similari
 
 5) Does lossy reconstruction + disentanglement of latent features with a TC-VAE improve ndcg@10 scores.
 
-6) Does latent disentaglement correspond with interpetable scent axis (x,y,z position) on umap. 
+6) Does latent disentaglement correspond with more distinguished / interpetable scent neighborhoods. 
 
 **Some blatant holes in this project**:
 
