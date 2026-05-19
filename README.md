@@ -18,6 +18,11 @@ Do Vae's provide some kind of added value on top of plain old scemantic similari
 
 • We will do PCA on raw embeddings as well to understand baseline.
 
+**Developing our baseline**:
+
+Fragrantica similarity is what we will use as the defacto source of truth for figuring out whether our neighborhoods of scents actually smell similar.
+Will make a test set of perfumes from that for generating our ndcg@10 metric.
+
 **The questions we will hopefully answer are:**
 
 4) Does lossy reconstruction with a regular VAE improve ndcg@10 scores.
